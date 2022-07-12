@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ 
+ 
+ body {
+   height: 100vh;
+ }
+ 
+ 
+ #header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #fff;
+     padding: 20px 64px;
+     transition: background 0.3s;
+     
+ }
+ 
+
+#main {
+    background-color: #f2f2f2;
+}
+
+ section.dark #header{
+     background-color: #2B3844;
+     color: #fff; 
+ }
+ 
+ section.dark #main {
+     background-color: #202C36;
+ }
+ 
+ section.dark button{
+     background-color: #2B3844;
+     color: #fff;
+     
+ }
+ 
+ section.dark .form input{
+     background-color: #2B3844;
+     color: #fff; 
+     
+ }
+ 
+ section.dark .select #select{
+    background-color: #2B3844; 
+    color: #fff; 
+ }
+ 
+ 
+ section.dark #generalcard  .cards{
+     background-color: #2B3844; 
+     color: #fff; 
+ }
+ 
+ section.dark .detail1 {
+    background-color: #202C36; 
+    color: #fff; 
+}
+
+ 
+ #header h1 {
+     font-family: 'Nunito Sans';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 24px;
+     line-height: 33px;
+
+ }
+ #toggle {
+     cursor: pointer;
+     /* border: none;
+     background-color: #fff; */
+ }
+ 
+ .toggle:before {
+     content: '\f186';
+     font-family: fontAwesome;
+     color: #000;
+     
+ } 
+ 
+ section.dark .toggle:before {
+     content: '\f186';
+     font-family: fontAwesome;
+     color: #fff;
+ }
+ 
+ /* #sec{
+     background-color: red;
+     transition: background 0.5s;
+ } */
+ section#header.dark{
+     /* background: #24292d; */
+     background: #2B3844;
+ }
+ 
+ 
+
+
+ .sec button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+    /* padding: 20px 64px; */
+    margin: 20px 64px;
+    border: none;
+
+
+
+ }
+
+ .sec button img {
+    width: 20px;
+    height: 20px;
+ }
+
+ #details {
+    /* display: flex; */
+    justify-content: space-between;
+   
+ }
+
+
+ .detail1 {
+    margin-left: 60px;
+    margin-top: 50px;
+    display: flex;
+ }
+ .detail1 img {
+    width: 620px;
+ }
+ .titleul {
+    justify-content: space-between;
+    margin-left: 80px; 
+    /* padding: 30px; */
+ }
+
+ .titleul li {
+    list-style: none;
+    padding-bottom: 15px;
+ }
+ .titleul h5 {
+    padding-bottom: 20px;
+    margin-left: 30px; 
+    font-style: normal;
+ }
+
+
+ .firstul {
+    position: absolute;
+ }
+
+
+.secondul {
+    margin-left:  400px;
+    position: absolute;
+
+}
+.secondul label {
+    padding-bottom: 30px;  
+}
+
+.secondul li {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
